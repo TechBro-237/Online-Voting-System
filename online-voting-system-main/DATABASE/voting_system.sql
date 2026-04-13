@@ -42,10 +42,10 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`id`, `username`, `password`, `firstname`, `lastname`, `photo`, `created_on`) VALUES
-(1, 'rovic', '$2y$10$W2tN6zeQ1nxUifW.FYH8FuMUSH40cseO7hKOtRsk808LAXGwaYnyq', 'Rovic', 'Balingbing', '623aa8f9933ee9a286871bf6e0782538.jpg', '2023-06-25');
+(1, 'Chris14', '$2a$04$HL8v.yUSs5tqMCAvmConNel/PRT/fsSllZLwW2zwUxVzOtlzJupue', 'Ndonue Christain', 'Funue', 'Chris.jpg', '2023-06-25');
 
 -- --------------------------------------------------------
-
+<!--The nemeric/Unhashed password is 1234 ->
 --
 -- Table structure for table `candidates`
 --
