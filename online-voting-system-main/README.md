@@ -145,17 +145,24 @@ Secure database queries
 
 ## 📸 System Preview
 
+
 ### Admin Login Page
 ![Admin Login](screenshots/admin-login-page.png)
 
-### Admin - Manage Candidates
+### Manage Ballots
+![Manage Ballots](screenshots/admin-page-manage-ballots.png)
+
+### Manage Candidates
 ![Manage Candidates](screenshots/admin-page-manage-candidates.png)
 
-### Admin - Manage Positions
+### Manage Positions
 ![Manage Positions](screenshots/admin-page-manage-positions.png)
 
-### Admin - Manage Voters
+### Manage Voters
 ![Manage Voters](screenshots/admin-page-manage-voters.png)
+
+### Manage Votes
+![Manage Votes](screenshots/admin-page-manage-votes.png)
 
 ### Ballot Counting Panel
 ![Ballot Counting](screenshots/ballot-counting-panel.png)
@@ -163,17 +170,25 @@ Secure database queries
 ### Database Overview
 ![Database](screenshots/database-overview.png)
 
-### Successful Voter Registration
-![Registration](screenshots/successful-voter-registration.png)
+### Election Setup
+![Set Election Title](screenshots/set-election-title.png)
+
+### Voter Registration Success
+![Registration Success](screenshots/successful-voter-registration.png)
 
 ### Vote Confirmation Dialog
 ![Vote Confirmation](screenshots/vote-confirmation-dialog.png)
 
 ### Voter Login Page
-![Voter Login](screenshots/voter%20login%20page.png)
+![Voter Login](screenshots/voter-login-page.png)
+
+### Votes Tally
+![Votes Tally](screenshots/votes-tally.png)
 
 ### Voting Panel
-![Voting Panel](screenshots/voting%20panel.png)
+![Voting Panel](screenshots/voting-panel.png)
+
+
 
 👨‍💻 Author
 
