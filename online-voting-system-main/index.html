@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e-ELECAMM Voting System</title>
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+    <!------------- NAVIGATION BAR ------------->
+    <nav class="navbar">
+        <div class="navbar-container container">
+            <input type="checkbox" name="" id="">
+            <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+            <ul class="menu-items">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="admin/index.php">Admin</a></li>
+                <li><a href="login-page.php">Voters</a></li>
+            </ul>
+            <h1 class="logo">e-ELECAMM Voting</h1>
+        </div>
+    </nav>
+
+    <!------------- HERO SECTION ------------->
+    <section id="hero">
+        <div id="hero-container">
+
+            <div id="bg">
+                <div id="color-overlay"></div>
+            </div>
+            
+            <div class="sitetitle">
+                <h1 id="hero-title">Welcome to e-ELECAMM!</h1>
+                <p id="hero-content">
+                    We are thrilled to have you as part of our democratic journey, where your voice matters. With e-ELECAMM, we have revolutionized the way we participate in elections by bringing the power of technology and convenience to your fingertips.
+                    <br />
+                    <br />
+                    e-ELECAMM Voting System ensures the highest standards of security and privacy. We have implemented robust encryption protocols and advanced authentication mechanisms to safeguard your information and maintain the integrity of the voting process. Rest assured that your vote is anonymous, and your personal data remains confidential.
+                </p>
+                <br />
+                <br />
+                <a href="login-page.php" class="hero-button">Vote Now!</a>
+            </div>
+        </div>
+    </section>
+
+    <!------------- ABOUT US SECTION ------------->
+    <section id="about">
+        <div class="main">
+            <img src="assets/img/about.png" alt="Ballot box">
+            <div class="about-text">
+                <h1>Choose Wisely!</h1>
+                <p>Through e-ELECAMM, we strive to make the electoral process more inclusive and accessible to all. Whether you are a seasoned voter or a first-time participant, our user-friendly interface and intuitive design will guide you seamlessly through the voting journey. We prioritize transparency and have incorporated features that allow you to verify your vote, track the progress of the election, and witness the democratic process unfold in real-time.
+                    <br />
+                    <br />
+                    Thank you for choosing e-ELECAMM as your trusted e-voting partner. Together, let us embark on this exciting digital voyage and create a future where every citizen's voice is heard and every vote matters.
+                </p>
+                <br />
+                <br />
+                <a href="login-page.php" class="about-button">Vote Now!</a> 
+            </div>
+        </div>
+    </section>
+
+    <!------------- CONTACT US SECTION ------------->
+    <section id="contact">
+        <div class="section-header">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <p>Connecting with Us is just a click away! Reach out for inquiries and collaborations. We are here to make your experience extraordinary. </p>
+            </div>
+        </div>
+          
+        <div class="container">
+            <div class="row">
+              
+                <div class="contact-info">
+                    <div class="contact-info-item">
+                        <div class="contact-info-icon">
+                            <i class="material-icons">home</i>
+                        </div>
+                        
+                        <div class="contact-info-content">
+                            <h4>Address</h4>
+                            <p> Nouvelle Route Bastos, Yaounde</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-info-item">
+                        <div class="contact-info-icon">
+                            <i class="material-icons">phone</i>
+                        </div>
+                        
+                        <div class="contact-info-content">
+                            <h4>Phone</h4>
+                            <p>+2376222212552</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-info-item">
+                        <div class="contact-info-icon">
+                            <i class="material-icons">email</i>
+                        </div>
+                        
+                        <div class="contact-info-content">
+                            <h4>Email</h4>
+                            <p>electronicelecamm@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+              
+                <div class="contact-form">
+                    <form action="send-message.php" method="POST" id="contact-form">
+    <h2>Send Message</h2>
+
+    <div class="input-box">
+        <label for="name">Name</label>
+        <input id="name" type="text" name="name" required>
+    </div>
+
+    <div class="input-box">
+        <label for="email">Email</label>
+        <input id="email" type="email" name="email" required>
+    </div>
+
+    <div class="input-box">
+        <textarea name="message" id="message" cols="30" rows="2"
+            placeholder="Type your message here"></textarea>
+    </div>
+
+    <div class="input-box">
+        <input type="submit" value="Send" name="submit">
+    </div>
+</form>
+                </div>
+              
+            </div>
+        </div>
+    </section>
+
+    <!------------- FOOTER ------------->
+    <footer>
+        <p>Developed by Ndonue Christain Funue   © 2025 | Cameroon Online Voting</p>
+    </footer>
+</body>
+</html>
